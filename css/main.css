@@ -2200,7 +2200,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-    padding-top: 3rem;
+    padding-top: 8rem;
     padding-bottom: 0rem;
     background-color: #ebebeb;
     position: relative;
@@ -3336,7 +3336,7 @@ footer a:hover, footer a:focus {
     margin-left: 0;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: .3rem;
 }
 

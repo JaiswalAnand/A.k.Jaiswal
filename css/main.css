@@ -171,6 +171,7 @@ h2, .h02 {
 h3, .h03 {
     font-size: 2.4rem;
     line-height: 1.25;
+    color: #862121;
 }
 
 h4, .h04 {
@@ -840,7 +841,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------- */
 
 .btn.full-width, button.full-width {
-    width: 100%;
+    width: auto;
     margin-right: 0;
 }
 
@@ -1007,10 +1008,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * markup:
  *
  * <aside class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- *	</aside>
+ *      <blockquote>
+ *          <p></p>
+ *      </blockquote>
+ *  </aside>
  *
  * --------------------------------------------------------------------- */
 
@@ -1054,8 +1055,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * markup:
  *
  * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
+ *      <li><a href="#">[value]<em>[name]</em></a></li>
+ *  </ul>
  *
  * Extend this object into your markup.
  *
@@ -1779,7 +1780,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #cc005f;
     font-family: "poppins-bold", sans-serif;
     font-size: 20px;
-    line-height: 9.565;
+    line-height: 7.565;
     margin-bottom: 61px;
     text-transform: uppercase;
     letter-spacing: .03rem;
@@ -2624,6 +2625,7 @@ html.no-csstransitions .home-content__main {
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 9.6rem;
+    padding-top: 2.6rem;
     padding-bottom: 10.2rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
@@ -2753,8 +2755,8 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__slide {
     position: relative;
-    padding-top: 4.5rem;
-    padding-left: 12rem;
+    padding-top: 6.5rem;
+    padding-left: 9rem;
     padding-right: 3rem;
     line-height: 2.063;
 }
@@ -4316,4 +4318,3 @@ article.blog-single .blog-content {
         padding-left: 5.5rem;
     }
 }
-
